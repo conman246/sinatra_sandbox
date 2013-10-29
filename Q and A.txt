@@ -1,0 +1,15 @@
+
+GIT REPOSITORY URL:
+
+1. Can I use a wildcard (ie. :word) in a form action?
+  A: No. I need to interpolate if I want a value to be passed as part of the URL to the next page.
+
+2. If I have multiple checkboxes in a form and none are checked, what value do I get?
+  A: None, not even nil. The key isn't even entered in the params hash.
+
+3. If I have multiple checkboxes and they are all checked, what value do I get?
+  A: The value of the last checkbox.
+
+4. If radio buttons are left unchecked when a page loads and then the form is submitted, what is the return value?
+
+5. Is the convention in ERB to interpolate Ruby into HTML or use Ruby to write the HTML?
